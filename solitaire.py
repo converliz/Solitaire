@@ -45,3 +45,30 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#constants for sizing
+CARD_SCALE = 0.6
+
+#how big are the cards?
+CARD_WIDTH = 140 * CARD_SCALE
+CARD_HEIGHT = 190 * CARD_SCALE
+
+#how big is the mat the card will go on?
+MAT_PERCENT_OVERSIZE = 1.25
+MAT_HEIGHT = int(CARD_HEIGHT * MAT_PERCENT_OVERSIZE)
+MAT_WIDTH = int(CARD_WIDTH * MAT_PERCENT_OVERSIZE)
+
+#how big of a gap left between mats?
+VERTICAL_MARGIN_PERCENT = 0.10
+HORIZONTAL_MARGIN_PERCENT = 0.10
+
+#y of bottom row, 2 piles
+BOTTOM_Y = MAT_HEIGHT / 2 + MAT_WIDTH * HORIZONTAL_MARGIN_PERCENT
+
+#X of where to start putting stuff on left side
+START_X = MAT_WIDTH / 2 + MAT_WIDTH * HORIZONTAL_MARGIN_PERCENT
+
+#Card constants
+CARD_VALUES = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
+CARD_ SUITS = ["Clubs", "Hearts", "Spades", "Diamonds"]
