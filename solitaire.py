@@ -71,4 +71,4 @@ START_X = MAT_WIDTH / 2 + MAT_WIDTH * HORIZONTAL_MARGIN_PERCENT
 
 #Card constants
 CARD_VALUES = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
-CARD_ SUITS = ["Clubs", "Hearts", "Spades", "Diamonds"]
+CARD_SUITS = ["Clubs", "Hearts", "Spades", "Diamonds"]
