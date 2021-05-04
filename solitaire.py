@@ -1,5 +1,5 @@
 """
-Solitaire clone.
+Solitaire game
 """
 import random
 import arcade
@@ -7,7 +7,7 @@ import arcade
 # Screen title and size
 SCREEN_WIDTH = 1024
 SCREEN_HEIGHT = 768
-SCREEN_TITLE = "Drag and Drop Cards"
+SCREEN_TITLE = "Liz's Solitaire Game"
 
 # Constants for sizing
 CARD_SCALE = 0.6
